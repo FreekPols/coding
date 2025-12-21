@@ -3,7 +3,7 @@
 ## Replace date in myst project with latest deploy date
 In deploy, set:
 
-```{yml}
+```{code} yml
     # setting the date to today
      - name: generate date
        shell: bash
@@ -16,7 +16,7 @@ In deploy, set:
 
 ## Add python 
 
-```{yml}
+```{code} yml
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
