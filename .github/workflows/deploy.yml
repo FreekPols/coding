@@ -35,10 +35,9 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 18.x
+          fetch-depth: 0
       - name: Install MyST
         run: npm install -g mystmd
-      - name: plugin update dependency
-        run: npm install js-yaml
       - name: Build HTML Assets
         run: myst build --html
       - name: Upload artifact
