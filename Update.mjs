@@ -67,9 +67,6 @@ const updateDateTransform = {
   },
 };
 
-export default updateDateTransform;
-
-
 const plugin = {
   name: 'Auto Update Date Plugin',
   transforms: [updateDateTransform],
