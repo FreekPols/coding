@@ -1,5 +1,6 @@
 ---
 title: test
+authors: Freek
 
 kernelspec:
   display_name: Python 3 (ipykernel)
