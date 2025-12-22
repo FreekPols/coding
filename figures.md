@@ -1,4 +1,7 @@
-# Notes on figures
+---
+title: Note on figures 
+---
+
 
 # horizontal figures
 
