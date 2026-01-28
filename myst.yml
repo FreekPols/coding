@@ -26,6 +26,9 @@ project:
       children: 
       - file: notes.md
       - file: figures.md
+    - title: GH
+      children:
+      - file: github.md
     
 site:
   template: book-theme
